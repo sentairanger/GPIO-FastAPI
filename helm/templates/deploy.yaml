@@ -9,7 +9,7 @@ spec:
   replicas: {{ .Values.replicaCount }} 
   selector:
     matchLabels:
-      app: techtrends
+      app: gpio-fastapi
   strategy:
     rollingUpdate:
       maxSurge: 25%
