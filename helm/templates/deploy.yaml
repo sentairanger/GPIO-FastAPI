@@ -23,7 +23,7 @@ spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.image.pullPolicy }}
-        name: techtrends
+        name: gpio-fastapi
         ports:
         - containerPort: {{ .Values.ports.containerPort }}
           protocol: {{ .Values.ports.protocol }}
