@@ -1,0 +1,8 @@
+apiVersion: v1
+name: gpio-fastapi
+keywords:
+- gpio-fastapi
+version: 1.0.0
+maintainers:
+- name: Edgardo 
+  email: ed2point0@gmail.com

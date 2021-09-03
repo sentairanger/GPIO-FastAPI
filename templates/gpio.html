@@ -1,0 +1,30 @@
+<html>
+<head>
+<link href="/static/gpio.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<h1> Raspberry Pi GPIO FastAPI</h1>
+<h2>Traffic Lights</h2>
+<div class="traffic-group">
+<button class="stop" id="red">Stop</button>
+<button class="slow" id="yellow">Slow</button>
+<button class="go" id="green">Go</button>
+</div>
+<h2>Servo Position</h2>
+<div class="servo-group">
+<button id="min">Min</button>
+<button id="mid">Mid</button>
+<button id="max">Max</button>
+</div>
+<h2>Robot Movement</h2>
+<div class="robot-group">
+<button id="up">^</button>
+<button id="down">v</button>
+<button id="left"><</button>
+<button id="right">></button>
+</div>
+<script src="/static/gpio.js"></script>
+</body>
+</html>

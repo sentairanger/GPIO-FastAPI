@@ -1,0 +1,18 @@
+namespace:
+  name: prod
+ 
+service:
+  port: 8000
+
+replicaCount: 5
+
+image:
+  pullPolicy: Always
+
+resources:
+  requests:
+    cpu: 350m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 256Mi

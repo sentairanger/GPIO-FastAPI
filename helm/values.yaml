@@ -1,0 +1,29 @@
+namespace:
+  name: gpio
+ 
+service:
+  port: 8000
+  targetPort: 8000
+  protocol: TCP
+  type: ClusterIP
+
+image:
+  repository: linuxrobotgeek/gpio-fastapi
+  tag: latest
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 64Mi
+  limits:
+    cpu: 500m
+    memory: 128Mi
+
+ports:
+  containerPort: 8000
+  protocol: TCP
+
+

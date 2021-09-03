@@ -1,0 +1,6 @@
+aiofiles==0.7.0
+fastapi==0.68.1
+gpiozero==1.6.2
+Jinja2==2.11.3
+pigpio==1.78
+uvicorn==0.15.0

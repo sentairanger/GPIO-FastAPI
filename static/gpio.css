@@ -1,0 +1,39 @@
+body {
+   background: aqua;
+
+}
+
+.traffic-group button {
+   padding: 16px 32px;
+   font-size: 16px;
+}
+.stop {
+   background: red;
+   color: white;
+}
+
+.slow {
+   background: yellow;
+   color: white;
+
+}
+
+.go {
+   background: green; 
+   color: white;
+
+}
+
+.servo-group button {
+   padding: 16px 32px;
+   font-size: 16px;
+   background: #008AE8;
+
+}
+
+.robot-group button {
+  padding: 16px 32px;
+  font-size: 16px;
+  background: #00E87E;
+
+}
