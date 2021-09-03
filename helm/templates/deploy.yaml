@@ -27,6 +27,7 @@ spec:
         ports:
         - containerPort: {{ .Values.ports.containerPort }}
           protocol: {{ .Values.ports.protocol }}
+        resources:
           requests:
             memory: {{ .Values.resources.requests.memory }}
             cpu: {{ .Values.resources.requests.cpu }}
