@@ -45,3 +45,11 @@ I have provided kubernetes manifests to run the service. I have provided a servi
 ## ArgoCD Helm Charts
 
 To deploy this on ArgoCD first install ArgoCD with [this](https://argoproj.github.io/argo-cd/getting_started/) link. Then follow the instructions to deploy ArgoCD on your own machine. Use the ArgoCD files I have provided to deploy the service. Make sure to use `kubectl apply -f` and then the file name to deploy the service. 
+
+## Pictures
+
+* App Screenshot
+* ![app](https://github.com/sentairanger/GPIO-FastAPI/blob/main/Screenshot%20from%202021-09-03%2016-21-21.png)
+
+* ArgoCD Screenshot
+* ![ArgoCD](https://github.com/sentairanger/GPIO-FastAPI/blob/main/Screenshot%20from%202021-09-03%2016-49-37.png)
